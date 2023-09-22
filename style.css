@@ -1,0 +1,836 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Poppins:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Manrope', sans-serif; */
+}
+html {
+  font-size: 62.5%;
+}
+.wrapper {
+  max-width: 1440px;
+  /* width: 1440px; */
+}
+
+/* ===================== HEADER ================= */
+header {
+  height: 101px;
+  background: #e43071;
+  display: flex;
+  align-items: center;
+}
+header > h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 109.5%;
+  margin-left: 3.6rem;
+}
+header > h3 > span {
+  color: #ffc1d8;
+}
+.navigate > ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 7.6rem;
+  margin-left: 17.2rem;
+  margin-right: 3.6rem;
+}
+li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+}
+li > img {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.6rem;
+}
+header > button {
+  border-radius: 200px;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+
+  color: #e43071;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109.5%;
+  padding: 1.6rem 6.1rem;
+}
+
+/* ===================== SLIDER ================= */
+.slider {
+  height: 704px;
+  background-image: url(./img/Female\ big\ out.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider > h1 {
+  width: 778px;
+  color: #fff;
+  text-align: center;
+  font-size: 7rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  margin-top: 24rem;
+}
+.slider > h1 > span {
+  color: #ffc1d8;
+}
+.slider > button {
+  border-radius: 38.5px;
+  background: #e43071;
+  border: none;
+  padding: 1.4rem 5.6rem;
+  /* margin-top: 10px;
+  margin-bottom: 15.6rem; */
+  margin-bottom: 13.5rem; 
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 231.25%;
+}
+
+/* ===================== MEET ================= */
+.meet {
+  width: 1159px;
+  height: 503px;
+  margin: 9.4rem 14.1rem;
+  display: flex;
+  gap: 17.9rem;
+}
+.meet-img {
+  width: 45%;
+  position: relative;
+  display: flex;
+}
+
+.male {
+  width: 347px;
+  height: 399px;
+  position: absolute;
+}
+.female {
+  width: 241px;
+  height: 359px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.meet-text {
+  width: 55%;
+  /* display: flex;
+  flex-direction: column; */
+}
+.meet-text > h4 {
+  color: #e43071;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 95px;
+  margin-bottom: 6px;
+}
+.meet-text > p {
+  color: #424242;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 231.25%;
+}
+.meet-text > button {
+  width: 237px;
+  height: 68px;
+  border-radius: 3.85rem;
+  border: 2px solid #e43071;
+  cursor: pointer;
+  background: #fff;
+  margin-top: 35px;
+
+  color: #e43071;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* ===================== SLIDER MAIN ================= */
+.slider-main {
+  height: 700px;
+  background-image: url(./img/Woman\ doing\ situps.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider-main > h1 {
+  width: 850px;
+  height: 90px;
+  margin-top: 231px;
+
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 60px rgba(0, 0, 0, 0.46);
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.slider-main > p {
+  width: 480px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.slider-main > button {
+  width: fit-content;
+  border-radius: 38.5px;
+  background: #e43071;
+  border: none;
+  padding: 1.4rem 5.6rem;
+  margin-top: 1.3rem;
+  cursor: pointer;
+
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 231.25%;
+}
+.slider-main > img {
+  margin-top: 19rem;
+}
+
+/* ==================== PREMIUM ================= */
+.premium {
+  width: 1206px;
+  height: 435px;
+  margin: 22.4rem 7.9rem 12.9rem 15.5rem;
+  display: flex;
+  gap: 14.5rem;
+}
+
+.premium-text {
+  width: 45%;
+  order: 1;
+}
+.premium-text > h4 {
+  color: #e43071;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 97px;
+  margin-bottom: 4px;
+}
+.premium-text > p {
+  color: #424242;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 231.25%;
+}
+.premium-text > button {
+  width: 237px;
+  height: 68px;
+  border-radius: 3.85rem;
+  border: 2px solid #e43071;
+  cursor: pointer;
+  background: #fff;
+  margin-top: 35px;
+
+  color: #e43071;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.premium-img {
+  width: 55%;
+  position: relative;
+  display: flex;
+  order: 0;
+}
+.gym-room {
+  width: 444px;
+  height: 296px;
+  position: absolute;
+  left: 1.3rem;
+}
+.weight {
+  width: 422px;
+  height: 281px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* ===================== REAL ================= */
+.real {
+  background: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%),
+    #f4e3e9;
+  height: 900px;
+  position: relative;
+}
+.real-text {
+  position: absolute;
+  top: 126px;
+  left: 254px;
+}
+.real-text > h2 {
+  width: 414px;
+  height: 114px;
+  margin-bottom: 12px;
+  color: #424242;
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 119.2%;
+}
+.real-text > span {
+  color: #424242;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ===================== STORY ================= */
+.story-17 {
+  width: 449px;
+
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  padding: 46px 27px;
+
+  position: absolute;
+  top: 165px;
+  right: 258px;
+}
+.story-17 > h4 {
+  color: #e43071;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45.296px;
+  margin-left: 7px;
+}
+.story-text {
+  display: flex;
+}
+.story-text > p {
+  width: 353px;
+  /* height: 242px; */
+  color: #424242;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.778%;
+  padding-top: 17px;
+}
+.story-text > span {
+  color: #f8c5d7;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5.8rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 7px;
+}
+.story-img {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-left: 38px;
+  margin-top: 17px;
+}
+.story-img > img {
+  width: 59px;
+  height: 57px;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.author > h6 {
+  color: #424242;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  /* line-height: 188.889%; */
+}
+.author > span {
+  color: #969bab;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 242.857%; */
+}
+
+.story-3 {
+  width: 349px;
+  height: 445px;
+
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  padding: 46px 27px;
+
+  position: absolute;
+  top: 30.6rem;
+  left: 35.1rem;
+}
+.story-3 > h4 {
+  color: #e43071;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45.296px;
+  margin-left: 0.7rem;
+}
+.story-43 {
+  width: 351px;
+  height: 278px;
+
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.18);
+  padding: 46px 27px;
+
+  position: absolute;
+  top: 54.1rem;
+  right: 35.6rem;
+}
+.story-43 > h4 {
+  color: #e43071;
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 0.7rem;
+}
+
+/* ===================== MOBILE APP ================= */
+.mobile-app {
+  width: 1440px;
+  height: 491px;
+  background: #e43071;
+  display: flex;
+  gap: 7rem;
+  position: relative;
+}
+.mobile-text {
+  width: 50%;
+  padding-top: 11.2rem;
+  padding-left: 23.8rem;
+}
+.mobile-text > h4 {
+  color: #fff;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mobile-text > p {
+  width: 489px;
+  height: 163px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 231.25%;
+}
+.mobile-text > span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.app-icons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.9rem;
+}
+.mobile-img {
+  width: 50%;
+  height: 598px;
+  position: absolute;
+  top: -4.2rem;
+  left: 79.7rem;
+}
+
+/* ===================== SOCIAL ================= */
+.social {
+  height: 323px;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.social > h4 {
+  color: #e43071;
+  text-align: center;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.8rem;
+}
+.social-icons {
+  width: 510px;
+  height: 110px;
+  display: flex;
+
+  gap: 93px;
+}
+.social-icons > button {
+  width: 110px;
+  border-radius: 50%;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===================== FOOTER ================= */
+footer {
+  max-width: 1440px;
+  height: 471px;
+  background: #0b0d17;
+  /* font-family: "Manrope", sans-serif; */
+  padding: 96px 165px;
+}
+.wrapper-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===================== FOOTER MENU ================= */
+.footer-menu {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 106px;
+}
+.menu-item {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.menu-item > h5 {
+  color: #fff;
+  font-size: 2.56rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 109.5%;
+}
+.menu-item > h5 > span {
+  color: #e43071;
+  font-size: 2.56rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 109.5%;
+}
+.menu-item > p {
+  color: #d9dbe1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.429%;
+  font-family: "Manrope", sans-serif;
+}
+.menu-social {
+  display: flex;
+  gap: 16px;
+}
+.menu-social > img {
+  cursor: pointer;
+}
+.menu-item > h6 {
+  color: #fff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  font-family: "Manrope", sans-serif;
+}
+.menu-item > ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 12px;
+}
+.menu-item > ul li {
+  color: #d9dbe1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.429%;
+  cursor: pointer;
+  font-family: "Manrope", sans-serif;
+}
+
+.footer-contacts {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer-contacts > p {
+  color: #d9dbe1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 171.429%; */
+  font-family: "Manrope", sans-serif;
+}
+.footer-contacts > img {
+  width: 20px;
+}
+/* ===================== SUB FOOTER ================= */
+.sub-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-footer > span {
+  color: #d9dbe1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.429%;
+  font-family: "Manrope", sans-serif;
+}
+.sub-menu {
+  display: flex;
+  gap: 8px;
+}
+.sub-menu > span {
+  color: #d9dbe1;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 171.429%;
+  font-family: "Manrope", sans-serif;
+}
+
+/* ====================================== */
+/* ====================================== */
+/* ====================================== */
+@media (min-width: 320px) and (max-width: 425px) {
+  .wrapper {
+    max-width: 425px;
+    width: 425px;
+  }
+  header {
+    height: 64px;
+  }
+  header > h3 {
+    font-size: 2.2rem;
+    margin-left: 1.6rem;
+  }
+  .navigate > ul {
+    display: none;
+  }
+
+  header > button {
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    margin-left: 220px;
+  }
+
+  /* ===================== SLIDER ================= */
+  .slider {
+    height: auto;
+    background-image: url(./img/Female\ working\ out.png);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+  }
+  .slider > h1 {
+    width: 315px;
+    height: 6.6rem;
+    font-size: 3.2rem;
+    margin-top: 13rem;
+    line-height: 36px;
+  }
+  .slider > h1 > span {
+    color: #fff;
+  }
+  .slider > button {
+    padding: 0.9rem 4rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+  }
+  .slider > img {
+    width: 97px;
+    margin-top: 8rem;
+  }
+  .path {
+    width: 100%;
+    height: 25px;
+    background-image: url(./img/Path\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  /* ===================== MEET ================= */
+  .meet {
+    width: 100%;
+    height: 767px;
+    margin: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.4rem;
+    margin-bottom: 2.6rem;
+  }
+  .meet-img {
+    width: 100%;
+    position: relative;
+  }
+
+  .male {
+    width: 176px;
+    height: 248px;
+    position: absolute;
+    left: 0px;
+    top: 36px;
+  }
+  .female {
+    width: 146px;
+    height: 218px;
+    position: absolute;
+    left: 116px;
+    top: 130px;
+  }
+  .meet-text {
+    width: 100%;
+    margin-top: 250px;
+  }
+  .meet-text > h4 {
+    width: 261px;
+    font-size: 4rem;
+    line-height:  120% ;
+  }
+  .meet-text > p {
+    width: 269px;
+    color: #424242;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 231.25%;
+  }
+  .meet-text > button {
+    width: 287px;
+    height: 60px;
+  }
+
+  /* ===================== SLIDER MAIN ================= */
+.slider-main {
+  width: 100%;
+  background-image: url(./img/Woman\ do.png);
+  background-size: contain;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:flex-start;
+}
+.slider-main > h1 {
+  width: 252px;
+  height: 138px;
+  font-size: 4.2rem;
+  margin-top: 105px;
+  line-height: 120%;
+}
+.slider-main > p {
+  width: 257px;
+  font-size: 1.6rem;
+  padding-top: 20px;
+}
+.slider-main > button {
+  margin-top: 2rem;
+}
+.slider-main > img {
+  width: 97px;
+  margin-top: 5rem;
+}
+
+/* ==================== PREMIUM ================= */
+.premium {
+  width: 100%;
+  height: 644px;
+  margin: 74px 16px 30px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.premium-text {
+  width: 100%;
+  order: 0;
+}
+.premium-text > h4 {
+  margin-top: 200px;
+  margin-bottom: 13px;
+}
+.premium-text > p {
+  line-height: 200%;
+}
+.premium-text > button {
+  width: 288px;
+  height: 63px;
+  margin-top: 0px;
+}
+.premium-img {
+  width: 100%;
+  position: relative;
+  display: flex;
+  order: 1;
+}
+.gym-room {
+  width: 202px;
+  height: 135px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.weight {
+  width: 191px;
+  height: 128px;
+  position: absolute;
+top: 70px;
+left: 84px;
+}
+}
